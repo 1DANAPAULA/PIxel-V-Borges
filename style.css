@@ -170,4 +170,13 @@ header img{
     margin-right: 5px;
 }
 
+/* ----------------Parallax------------------ */
+
+#parallax{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/parallax.svg);
+    margin-bottom: 120px;
+    background-attachment: fixed;
+    background-size: 30%;
+}
 
