@@ -1,7 +1,7 @@
 *{
-    margin: 0%
-    padding: 0%
-    box-sizing: border-box
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -28,7 +28,32 @@
 
 body{
     overflow-x: hidden;
+    background-color: var(--fundo-site);
 }
+
+.titulo{
+    display: flex;
+font-family: "Recursive", sans-linear-bold;
+font-size: 35px;
+font-weight: 600;
+}
+
+.titulo h2{
+    color: var(--branco);
+    margin-bottom: 0%;
+    background-color: var(--roxo-pixelV);
+    border-radius: 20px;
+    padding: 10px 18px;
+}
+
+.titulo span{
+    color: var(--roxo-pixelV);
+    border-bottom: solid 3px var(--verde-pixelV);
+}
+
+
+/* -------------------Header---------------------- */
+
 
 .banner{
     background-image: url(./img/Banner.png);
@@ -69,7 +94,7 @@ header img{
 .menu a{
     font-size: 20px;
     color: var(--branco);
-    font-family: "Recursive", Sans-linear;
+    font-family: "Recursive", sans-linear;
 
     text-decoration: underline transparent;
     text-decoration-thickness: 2px;
@@ -112,6 +137,37 @@ header img{
     list-style-type: none;
     padding: 0;
 
+}
+
+
+/* ------------------SOBRE------------------- */
+
+
+#sobre{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#sobre img{
+    max-width: 460px;
+    width: 40%;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#sobre p{
+    font-family: "Recursive", sans-linear;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#sobre h2{
+    margin-right: 5px;
 }
 
 
